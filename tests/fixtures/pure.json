@@ -1,0 +1,1203 @@
+{
+ "segmentations": [
+  {
+   "config": {
+    "split_on_sentences": true,
+    "max_words": 64,
+    "min_chars": 2,
+    "cut_search_ratio": 0.25
+   },
+   "rows": [
+    {
+     "text": "Dr. Smith arrived at 3.30 pm. He said \"stop.\" Then left?! Yes… www.example.com is fine. M. Dupont, etc. ok",
+     "pieces": [
+      "Dr. Smith arrived at 3.30 pm.",
+      "He said \"stop.\"",
+      "Then left?!",
+      "Yes…",
+      "www.example.com is fine.",
+      "M. Dupont, etc. ok"
+     ],
+     "spliced": "DR. SMITH ARRIVED AT 3.30 PM. HE SAID \"STOP.\" THEN LEFT?! YES… WWW.EXAMPLE.COM IS FINE. M. DUPONT, ETC. OK"
+    },
+    {
+     "text": "un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore ",
+     "pieces": [
+      "un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore"
+     ],
+     "spliced": "UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE "
+    },
+    {
+     "text": "Line one\nline two, with a comma; and more words here to fill the window up quite a lot\n\nThird paragraph.",
+     "pieces": [
+      "Line one\nline two, with a comma; and more words here to fill the window up quite a lot\n\nThird paragraph."
+     ],
+     "spliced": "LINE ONE\nLINE TWO, WITH A COMMA; AND MORE WORDS HERE TO FILL THE WINDOW UP QUITE A LOT\n\nTHIRD PARAGRAPH."
+    },
+    {
+     "text": "日本語の文です。次の文！最後？",
+     "pieces": [
+      "日本語の文です。次の文！最後？"
+     ],
+     "spliced": "日本語の文です。次の文！最後？"
+    },
+    {
+     "text": "  leading and trailing  ",
+     "pieces": [
+      "leading and trailing"
+     ],
+     "spliced": "  LEADING AND TRAILING  "
+    },
+    {
+     "text": "",
+     "pieces": [],
+     "spliced": ""
+    },
+    {
+     "text": ")",
+     "pieces": [
+      ")"
+     ],
+     "spliced": ")"
+    },
+    {
+     "text": "A. B. C. short",
+     "pieces": [
+      "A.",
+      "B.",
+      "C.",
+      "short"
+     ],
+     "spliced": "A. B. C. SHORT"
+    },
+    {
+     "text": "émoji 🙂 inside. Next sentence here.",
+     "pieces": [
+      "émoji 🙂 inside.",
+      "Next sentence here."
+     ],
+     "spliced": "ÉMOJI 🙂 INSIDE. NEXT SENTENCE HERE."
+    }
+   ]
+  },
+  {
+   "config": {
+    "split_on_sentences": true,
+    "max_words": 8,
+    "min_chars": 2,
+    "cut_search_ratio": 0.25
+   },
+   "rows": [
+    {
+     "text": "Dr. Smith arrived at 3.30 pm. He said \"stop.\" Then left?! Yes… www.example.com is fine. M. Dupont, etc. ok",
+     "pieces": [
+      "Dr. Smith arrived at 3.30 pm.",
+      "He said \"stop.\"",
+      "Then left?!",
+      "Yes…",
+      "www.example.com is fine.",
+      "M. Dupont, etc. ok"
+     ],
+     "spliced": "DR. SMITH ARRIVED AT 3.30 PM. HE SAID \"STOP.\" THEN LEFT?! YES… WWW.EXAMPLE.COM IS FINE. M. DUPONT, ETC. OK"
+    },
+    {
+     "text": "un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore ",
+     "pieces": [
+      "un texte sans aucune ponctuation qui vient tout",
+      "droit d une transcription automatique et qui continue",
+      "encore et encore un texte sans aucune ponctuation",
+      "qui vient tout droit d une transcription automatique",
+      "et qui continue encore et encore un texte",
+      "sans aucune ponctuation qui vient tout droit d",
+      "une transcription automatique et qui continue encore et",
+      "encore"
+     ],
+     "spliced": "UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE "
+    },
+    {
+     "text": "Line one\nline two, with a comma; and more words here to fill the window up quite a lot\n\nThird paragraph.",
+     "pieces": [
+      "Line one\nline two, with a comma;",
+      "and more words here to fill the window",
+      "up quite a lot\n\nThird paragraph."
+     ],
+     "spliced": "LINE ONE\nLINE TWO, WITH A COMMA; AND MORE WORDS HERE TO FILL THE WINDOW UP QUITE A LOT\n\nTHIRD PARAGRAPH."
+    },
+    {
+     "text": "日本語の文です。次の文！最後？",
+     "pieces": [
+      "日本語の文です。次の文！最後？"
+     ],
+     "spliced": "日本語の文です。次の文！最後？"
+    },
+    {
+     "text": "  leading and trailing  ",
+     "pieces": [
+      "leading and trailing"
+     ],
+     "spliced": "  LEADING AND TRAILING  "
+    },
+    {
+     "text": "",
+     "pieces": [],
+     "spliced": ""
+    },
+    {
+     "text": ")",
+     "pieces": [
+      ")"
+     ],
+     "spliced": ")"
+    },
+    {
+     "text": "A. B. C. short",
+     "pieces": [
+      "A.",
+      "B.",
+      "C.",
+      "short"
+     ],
+     "spliced": "A. B. C. SHORT"
+    },
+    {
+     "text": "émoji 🙂 inside. Next sentence here.",
+     "pieces": [
+      "émoji 🙂 inside.",
+      "Next sentence here."
+     ],
+     "spliced": "ÉMOJI 🙂 INSIDE. NEXT SENTENCE HERE."
+    }
+   ]
+  },
+  {
+   "config": {
+    "split_on_sentences": false,
+    "max_words": 12,
+    "min_chars": 5,
+    "cut_search_ratio": 0.25
+   },
+   "rows": [
+    {
+     "text": "Dr. Smith arrived at 3.30 pm. He said \"stop.\" Then left?! Yes… www.example.com is fine. M. Dupont, etc. ok",
+     "pieces": [
+      "Dr. Smith arrived at 3.30 pm. He said \"stop.\" Then left?! Yes…",
+      "www.example.com is fine. M. Dupont, etc. ok"
+     ],
+     "spliced": "DR. SMITH ARRIVED AT 3.30 PM. HE SAID \"STOP.\" THEN LEFT?! YES… WWW.EXAMPLE.COM IS FINE. M. DUPONT, ETC. OK"
+    },
+    {
+     "text": "un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore ",
+     "pieces": [
+      "un texte sans aucune ponctuation qui vient tout droit d une transcription",
+      "automatique et qui continue encore et encore un texte sans aucune ponctuation",
+      "qui vient tout droit d une transcription automatique et qui continue encore",
+      "et encore un texte sans aucune ponctuation qui vient tout droit d",
+      "une transcription automatique et qui continue encore et encore"
+     ],
+     "spliced": "UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE "
+    },
+    {
+     "text": "Line one\nline two, with a comma; and more words here to fill the window up quite a lot\n\nThird paragraph.",
+     "pieces": [
+      "Line one\nline two, with a comma; and more words here to",
+      "fill the window up quite a lot\n\nThird paragraph."
+     ],
+     "spliced": "LINE ONE\nLINE TWO, WITH A COMMA; AND MORE WORDS HERE TO FILL THE WINDOW UP QUITE A LOT\n\nTHIRD PARAGRAPH."
+    },
+    {
+     "text": "日本語の文です。次の文！最後？",
+     "pieces": [
+      "日本語の文です。次の文！最後？"
+     ],
+     "spliced": "日本語の文です。次の文！最後？"
+    },
+    {
+     "text": "  leading and trailing  ",
+     "pieces": [
+      "leading and trailing"
+     ],
+     "spliced": "  LEADING AND TRAILING  "
+    },
+    {
+     "text": "",
+     "pieces": [],
+     "spliced": ""
+    },
+    {
+     "text": ")",
+     "pieces": [
+      ")"
+     ],
+     "spliced": ")"
+    },
+    {
+     "text": "A. B. C. short",
+     "pieces": [
+      "A. B. C. short"
+     ],
+     "spliced": "A. B. C. SHORT"
+    },
+    {
+     "text": "émoji 🙂 inside. Next sentence here.",
+     "pieces": [
+      "émoji 🙂 inside. Next sentence here."
+     ],
+     "spliced": "ÉMOJI 🙂 INSIDE. NEXT SENTENCE HERE."
+    }
+   ]
+  },
+  {
+   "config": {
+    "split_on_sentences": true,
+    "max_words": 5,
+    "min_chars": 2,
+    "cut_search_ratio": 1.0
+   },
+   "rows": [
+    {
+     "text": "Dr. Smith arrived at 3.30 pm. He said \"stop.\" Then left?! Yes… www.example.com is fine. M. Dupont, etc. ok",
+     "pieces": [
+      "Dr. Smith arrived at 3.30",
+      "pm.",
+      "He said \"stop.\"",
+      "Then left?!",
+      "Yes…",
+      "www.example.com is fine.",
+      "M. Dupont, etc. ok"
+     ],
+     "spliced": "DR. SMITH ARRIVED AT 3.30 PM. HE SAID \"STOP.\" THEN LEFT?! YES… WWW.EXAMPLE.COM IS FINE. M. DUPONT, ETC. OK"
+    },
+    {
+     "text": "un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore un texte sans aucune ponctuation qui vient tout droit d une transcription automatique et qui continue encore et encore ",
+     "pieces": [
+      "un texte sans aucune ponctuation",
+      "qui vient tout droit d",
+      "une transcription automatique et qui",
+      "continue encore et encore un",
+      "texte sans aucune ponctuation qui",
+      "vient tout droit d une",
+      "transcription automatique et qui continue",
+      "encore et encore un texte",
+      "sans aucune ponctuation qui vient",
+      "tout droit d une transcription",
+      "automatique et qui continue encore",
+      "et encore"
+     ],
+     "spliced": "UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE UN TEXTE SANS AUCUNE PONCTUATION QUI VIENT TOUT DROIT D UNE TRANSCRIPTION AUTOMATIQUE ET QUI CONTINUE ENCORE ET ENCORE "
+    },
+    {
+     "text": "Line one\nline two, with a comma; and more words here to fill the window up quite a lot\n\nThird paragraph.",
+     "pieces": [
+      "Line one",
+      "line two, with a comma;",
+      "and more words here to",
+      "fill the window up quite",
+      "a lot\n\nThird paragraph."
+     ],
+     "spliced": "LINE ONE\nLINE TWO, WITH A COMMA; AND MORE WORDS HERE TO FILL THE WINDOW UP QUITE A LOT\n\nTHIRD PARAGRAPH."
+    },
+    {
+     "text": "日本語の文です。次の文！最後？",
+     "pieces": [
+      "日本語の文です。次の文！最後？"
+     ],
+     "spliced": "日本語の文です。次の文！最後？"
+    },
+    {
+     "text": "  leading and trailing  ",
+     "pieces": [
+      "leading and trailing"
+     ],
+     "spliced": "  LEADING AND TRAILING  "
+    },
+    {
+     "text": "",
+     "pieces": [],
+     "spliced": ""
+    },
+    {
+     "text": ")",
+     "pieces": [
+      ")"
+     ],
+     "spliced": ")"
+    },
+    {
+     "text": "A. B. C. short",
+     "pieces": [
+      "A.",
+      "B.",
+      "C.",
+      "short"
+     ],
+     "spliced": "A. B. C. SHORT"
+    },
+    {
+     "text": "émoji 🙂 inside. Next sentence here.",
+     "pieces": [
+      "émoji 🙂 inside.",
+      "Next sentence here."
+     ],
+     "spliced": "ÉMOJI 🙂 INSIDE. NEXT SENTENCE HERE."
+    }
+   ]
+  }
+ ],
+ "labelled": [
+  {
+   "text": "hello world is it you us here",
+   "offsets": [
+    [
+     0,
+     5
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     15,
+     17
+    ],
+    [
+     18,
+     21
+    ],
+    [
+     22,
+     24
+    ],
+    [
+     25,
+     29
+    ]
+   ],
+   "post": [
+    ".",
+    "",
+    "",
+    "?",
+    "",
+    "<ACRONYM>",
+    "!"
+   ],
+   "pre": null,
+   "caps": [
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "out": "Hello. world is It? you u.s. here!"
+  },
+  {
+   "text": "hello world is it you us here",
+   "offsets": [
+    [
+     0,
+     5
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     15,
+     17
+    ],
+    [
+     18,
+     21
+    ],
+    [
+     22,
+     24
+    ],
+    [
+     25,
+     29
+    ]
+   ],
+   "post": [
+    "",
+    ",",
+    "",
+    "",
+    "",
+    "",
+    "."
+   ],
+   "pre": [
+    "",
+    "",
+    "¿",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "caps": [
+    [
+     true,
+     false,
+     true
+    ],
+    false,
+    false,
+    false,
+    [
+     false,
+     true,
+     true
+    ],
+    false,
+    false
+   ],
+   "out": "HeLlo world, ¿is it yOU us here."
+  },
+  {
+   "text": "hello world is it you us here",
+   "offsets": [
+    [
+     0,
+     5
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     15,
+     17
+    ],
+    [
+     18,
+     21
+    ],
+    [
+     22,
+     24
+    ],
+    [
+     25,
+     29
+    ]
+   ],
+   "post": null,
+   "pre": null,
+   "caps": null,
+   "out": "hello world is it you us here"
+  },
+  {
+   "text": "done. and done .",
+   "offsets": [
+    [
+     0,
+     5
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     10,
+     14
+    ]
+   ],
+   "post": [
+    ".",
+    "",
+    "."
+   ],
+   "pre": null,
+   "caps": null,
+   "out": "done. and done ."
+  }
+ ],
+ "capitalised": {
+  "hello. world! «  yes » ok? (fine) no": "Hello. World! «  Yes » ok? (Fine) no",
+  "élan... iPhone works. 3 cats. ok": "Élan... IPhone works. 3 cats. Ok",
+  "": ""
+ },
+ "signatures": {
+  "Hello, World! 3½ Ça va?": "helloworld3½çava",
+  "日本語 ok": "日本語ok"
+ },
+ "violation": "at word-signature offset 3: expected ...thecatsatonthemat... but got ...thedogsatonthemat...",
+ "guards": [
+  {
+   "config": {
+    "strategy": "beam",
+    "beam_size": 4,
+    "length_penalty": 1.0,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 32,
+    "min_length_ratio": 0.6,
+    "max_length_ratio": 1.6,
+    "on_length_violation": "keep_original"
+   },
+   "before": [
+    "This is fine.",
+    "Short",
+    "A long sentence here.",
+    "x",
+    ""
+   ],
+   "after": [
+    "This is fine!",
+    "Short and now much much longer than before",
+    "A",
+    "  ",
+    "anything"
+   ],
+   "kept": [
+    "This is fine!",
+    "Short",
+    "A long sentence here.",
+    "x",
+    "anything"
+   ],
+   "reverted": 3
+  },
+  {
+   "config": {
+    "strategy": "beam",
+    "beam_size": 4,
+    "length_penalty": 1.0,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 32,
+    "min_length_ratio": 0.6,
+    "max_length_ratio": 1.6,
+    "on_length_violation": "accept"
+   },
+   "before": [
+    "This is fine.",
+    "Short",
+    "A long sentence here.",
+    "x",
+    ""
+   ],
+   "after": [
+    "This is fine!",
+    "Short and now much much longer than before",
+    "A",
+    "  ",
+    "anything"
+   ],
+   "kept": [
+    "This is fine!",
+    "Short and now much much longer than before",
+    "A",
+    "",
+    "anything"
+   ],
+   "reverted": 0
+  },
+  {
+   "config": {
+    "strategy": "beam",
+    "beam_size": 4,
+    "length_penalty": 1.0,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 32,
+    "min_length_ratio": 0.9,
+    "max_length_ratio": 1.1,
+    "on_length_violation": "keep_original"
+   },
+   "before": [
+    "This is fine.",
+    "Short",
+    "A long sentence here.",
+    "x",
+    ""
+   ],
+   "after": [
+    "This is fine!",
+    "Short and now much much longer than before",
+    "A",
+    "  ",
+    "anything"
+   ],
+   "kept": [
+    "This is fine!",
+    "Short",
+    "A long sentence here.",
+    "x",
+    "anything"
+   ],
+   "reverted": 3
+  }
+ ],
+ "markdown": {
+  "body": "Intro with `make release` inside it\n\n```python\nprint('x')\n```\n\nafter the code `a b` end\n~~~\nunclosed",
+  "fenced": [
+   [
+    "Intro with `make release` inside it\n\n",
+    false
+   ],
+   [
+    "```python\nprint('x')\n```\n",
+    true
+   ],
+   [
+    "\nafter the code `a b` end\n",
+    false
+   ],
+   [
+    "~~~\nunclosed",
+    true
+   ]
+  ],
+  "corrected": "Intro with `make release`, inside it\n\n.\n\n```python\nprint('x')\n```\n\nAfter the code `a b` end\n.\n~~~\nunclosed"
+ },
+ "restored": "Say `hi there`, now.",
+ "batches": {
+  "budget": [
+   [
+    1,
+    7,
+    3
+   ],
+   [
+    4,
+    0
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    5
+   ]
+  ],
+  "fixed": [
+   [
+    1,
+    7
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    2,
+    5
+   ]
+  ]
+ },
+ "plans": [
+  {
+   "features": [
+    "punctuation",
+    "capitalisation"
+   ],
+   "language": null,
+   "prefer": "balanced",
+   "pm": "auto",
+   "rm": "auto",
+   "plan": "tagging:xlm-punct-cap-seg[capitalisation,punctuation]"
+  },
+  {
+   "features": [
+    "punctuation"
+   ],
+   "language": "fr",
+   "prefer": "balanced",
+   "pm": "auto",
+   "rm": "auto",
+   "plan": "tagging:punctuate-all[punctuation]"
+  },
+  {
+   "features": [
+    "punctuation"
+   ],
+   "language": "fr",
+   "prefer": "quality",
+   "pm": "auto",
+   "rm": "auto",
+   "plan": "tagging:fullstop-large[punctuation]"
+  },
+  {
+   "features": [
+    "punctuation",
+    "capitalisation",
+    "spelling",
+    "grammar"
+   ],
+   "language": "en",
+   "prefer": "balanced",
+   "pm": "auto",
+   "rm": "auto",
+   "plan": "tagging:xlm-punct-cap-seg[capitalisation,punctuation] -> rewrite:grammar-synthesis-small[grammar,spelling]"
+  },
+  {
+   "features": [
+    "spelling"
+   ],
+   "language": "en",
+   "prefer": "balanced",
+   "pm": "auto",
+   "rm": "auto",
+   "plan": "rewrite:spelling-en[spelling]"
+  },
+  {
+   "features": [
+    "spelling",
+    "grammar"
+   ],
+   "language": "en",
+   "prefer": "balanced",
+   "pm": "auto",
+   "rm": "spelling-en",
+   "plan": "rewrite:spelling-en[spelling] -> rewrite:grammar-synthesis-small[grammar]"
+  },
+  {
+   "features": [
+    "punctuation"
+   ],
+   "language": "en",
+   "prefer": "fast",
+   "pm": "auto",
+   "rm": "auto",
+   "plan": "tagging:punct-cap-seg-en[punctuation]"
+  },
+  {
+   "features": [
+    "punctuation"
+   ],
+   "language": "es",
+   "prefer": "balanced",
+   "pm": "auto",
+   "rm": "auto",
+   "plan": "tagging:punct-cap-seg-romance[punctuation]"
+  },
+  {
+   "features": [
+    "punctuation"
+   ],
+   "language": "cs",
+   "prefer": "fast",
+   "pm": "auto",
+   "rm": "auto",
+   "plan": "tagging:punctuate-all[punctuation]"
+  },
+  {
+   "features": [
+    "punctuation"
+   ],
+   "language": "xx",
+   "prefer": "balanced",
+   "pm": "auto",
+   "rm": "auto",
+   "error": "ConfigurationError"
+  },
+  {
+   "features": [
+    "grammar"
+   ],
+   "language": "fr",
+   "prefer": "balanced",
+   "pm": "auto",
+   "rm": "auto",
+   "error": "ConfigurationError"
+  },
+  {
+   "features": [
+    "spelling"
+   ],
+   "language": "de",
+   "prefer": "balanced",
+   "pm": "auto",
+   "rm": "auto",
+   "plan": "rewrite:spelling-de[spelling]"
+  },
+  {
+   "features": [],
+   "language": null,
+   "prefer": "balanced",
+   "pm": "auto",
+   "rm": "auto",
+   "error": "NoFeatureSelectedError"
+  }
+ ],
+ "labelMaps": {
+  "json": {
+   "post_punctuation": [
+    "",
+    ".",
+    ",",
+    "",
+    "?"
+   ]
+  },
+  "yaml": {
+   "pre_punctuation": [
+    "",
+    "¿"
+   ],
+   "post_punctuation": [
+    "",
+    "<ACRONYM>",
+    ".",
+    ",",
+    "?"
+   ],
+   "capitalisation": [
+    "",
+    "upper"
+   ]
+  },
+  "yamlText": "model: x\npre_labels:\n- <NULL>\n- ¿\npost_labels:\n- <NULL>\n- <ACRONYM>\n- .\n- ','\n- \"?\"\nother: [1, 2]\n"
+ },
+ "spOffsets": [
+  {
+   "lowercase": false,
+   "text": "Le Chat dort, À Paris.",
+   "ids": [
+    37,
+    14332,
+    14,
+    647,
+    139,
+    4,
+    202,
+    1318,
+    6
+   ],
+   "offsets": [
+    [
+     0,
+     2
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     16,
+     21
+    ],
+    [
+     21,
+     22
+    ]
+   ],
+   "leads": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "lowercase": false,
+   "text": "  ÉCOLE  du soir 🙂 x",
+   "ids": [
+    1432,
+    186,
+    25180,
+    16,
+    1919,
+    34,
+    29935,
+    1880
+   ],
+   "offsets": [
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     16,
+     16
+    ],
+    [
+     17,
+     18
+    ],
+    [
+     19,
+     20
+    ]
+   ],
+   "leads": [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "lowercase": false,
+   "text": "aujourd'hui l'été",
+   "ids": [
+    718,
+    5,
+    546,
+    9,
+    5,
+    2776
+   ],
+   "offsets": [
+    [
+     0,
+     7
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     17
+    ]
+   ],
+   "leads": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "lowercase": true,
+   "text": "Le Chat dort, À Paris.",
+   "ids": [
+    13,
+    8912,
+    14,
+    647,
+    139,
+    4,
+    12,
+    28,
+    905,
+    6
+   ],
+   "offsets": [
+    [
+     0,
+     2
+    ],
+    [
+     3,
+     7
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     16,
+     19
+    ],
+    [
+     19,
+     21
+    ],
+    [
+     21,
+     22
+    ]
+   ],
+   "leads": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "lowercase": true,
+   "text": "  ÉCOLE  du soir 🙂 x",
+   "ids": [
+    3717,
+    16,
+    1919,
+    34,
+    29935,
+    1880
+   ],
+   "offsets": [
+    [
+     2,
+     7
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     16,
+     16
+    ],
+    [
+     17,
+     18
+    ],
+    [
+     19,
+     20
+    ]
+   ],
+   "leads": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "lowercase": true,
+   "text": "aujourd'hui l'été",
+   "ids": [
+    718,
+    5,
+    546,
+    9,
+    5,
+    2776
+   ],
+   "offsets": [
+    [
+     0,
+     7
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     17
+    ]
+   ],
+   "leads": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  }
+ ]
+}
